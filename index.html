@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./grainient.css" />
   </head>
   <body>
+    <div id="grainient-bg" class="grainient-bg" aria-hidden="true"></div>
     <main class="page">
       <header class="header">
         <div class="profile">
@@ -85,6 +87,26 @@
             </div>
           </article>
 
+        </div>
+      </section>
+
+      <section class="section current-projects">
+        <h2>Currently working on</h2>
+        <div class="current-grid">
+          <a class="current-link" href="https://kaffka.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Open KAFFKA Café Website Redesign">
+            <div class="current-card-copy">
+              <h3>KAFFKA Café Website Redesign</h3>
+              <p>Redesigning a local café website to improve usability, mobile experience, and visual identity.</p>
+            </div>
+            <img class="current-arrow" src="./Arrow up-right.svg" alt="" />
+          </a>
+          <a class="current-link" href="https://cortado.sk" target="_blank" rel="noopener noreferrer" aria-label="Open Web Agency Website">
+            <div class="current-card-copy">
+              <h3>Web Agency Website</h3>
+              <p>Designing and building a modern website that clearly presents services, work, and conversion paths.</p>
+            </div>
+            <img class="current-arrow" src="./Arrow up-right.svg" alt="" />
+          </a>
         </div>
       </section>
 
@@ -202,6 +224,7 @@
         <p>Built with Figma MCP and Codex.</p>
       </footer>
     </main>
+    <script type="module" src="./grainient.mjs"></script>
     <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
     <script src="./lenis-init.js"></script>
     <script>

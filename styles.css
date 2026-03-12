@@ -236,6 +236,62 @@ h1 {
   }
 }
 
+.current-projects {
+  padding: 24px 0;
+}
+
+.current-grid {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.current-link {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 16px 14px;
+}
+
+.current-card-copy {
+  width: min(708px, calc(100% - 40px));
+}
+
+.current-card-copy h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.current-card-copy p {
+  margin-top: 6px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.current-arrow {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex: 0 0 20px;
+  transition: transform 160ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .current-link:hover .current-arrow {
+    transform: translateX(2px) translateY(-1px);
+  }
+}
+
+@media (max-width: 820px) {
+  .current-card-copy p {
+    font-size: 14px;
+  }
+}
+
 .project-meta {
   padding: 16px 8px 32px;
   display: flex;

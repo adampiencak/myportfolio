@@ -1,0 +1,24 @@
+{
+  "name": "portfoliomcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lenis-init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adampiencak/myportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/adampiencak/myportfolio/issues"
+  },
+  "homepage": "https://github.com/adampiencak/myportfolio#readme",
+  "dependencies": {
+    "ogl": "^1.0.11"
+  }
+}
